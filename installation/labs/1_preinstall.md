@@ -237,6 +237,10 @@ Query OK, 0 rows affected, 1 warning (0.00 sec)
 mysql>  grant all on navms.* TO 'navms'@'%' IDENTIFIED BY 'navms_password';
 Query OK, 0 rows affected, 1 warning (0.00 sec)
 
+mysql> create database hue DEFAULT CHARACTER SET utf8;
+Query OK, 1 row affected (0.00 sec)
 
+mysql> grant all on hue.* TO 'hue'@'%' IDENTIFIED BY 'hue';
+Query OK, 0 rows affected, 1 warning (0.00 sec)
 
 4.- yum localinstall cloudera-manager-daemons-5.11.2-1.cm5112.p0.6.el7.x86_64.rpm
