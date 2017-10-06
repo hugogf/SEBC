@@ -1,0 +1,1 @@
+hadoop jar hadoop-examples.jar  terasort tgen tsort

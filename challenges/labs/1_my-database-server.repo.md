@@ -61,4 +61,4 @@ name=MySQL Cluster 7.6 Community
 baseurl=http://repo.mysql.com/yum/mysql-cluster-7.6-community/el/7/$basearch/
 enabled=0
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql    
